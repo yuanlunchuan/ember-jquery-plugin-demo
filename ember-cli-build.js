@@ -7,6 +7,11 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  //-------------------
+  //this is new add
+  app.import('bower_components/jquery-knob/js/jquery.knob.js');
+  //-------------------
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //

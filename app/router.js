@@ -6,6 +6,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('chart-start');
+  this.route('knob');
 });
 
 export default Router;
