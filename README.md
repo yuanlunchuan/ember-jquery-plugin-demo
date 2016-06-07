@@ -20,6 +20,14 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
+## How to use jqery plugin in emberjs
+(such as how to use jquery-knob plugin in ember)
+* `bower install --save jquery-knob`
+* open `/ember-cli-build.js` file and add the code `app.import('bower_components/jquery-knob/js/jquery.knob.js');`
+* create a component to use the plugin
+* Please look `app/components/x-knob.js`
+
+
 ## Running / Development
 
 * `ember server`
