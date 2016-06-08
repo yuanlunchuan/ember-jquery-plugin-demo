@@ -10,6 +10,8 @@ module.exports = function(defaults) {
   //-------------------
   //this is new add
   app.import('bower_components/jquery-knob/js/jquery.knob.js');
+  app.import('bower_components/jqplot/jquery.jqplot.min.js');
+  app.import('bower_components/jqplot/jquery.jqplot.min.css');
   //-------------------
 
   // Use `app.import` to add additional libraries to the generated

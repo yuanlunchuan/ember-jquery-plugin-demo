@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     this.$().knob({
       fgColor: this.get('fgColor'),
       change: function(v){
-        self.set('value', v)
+        self.set('value', v);
       }
     });
   }.on('didInsertElement'),
