@@ -27,6 +27,16 @@ You will need the following things properly installed on your computer.
 * create a component to use the plugin
 * Please look `app/components/x-knob.js`
 
+## How to use jqplot in emberjs
+(open [link](http://www.jqplot.com/) to learn about jqplot plugin)
+* user bower to install jqplot `bower install --save jqplot`
+* Add nessessary javascript and stylesheet to ember-cli-build.js file
+  such as 
+    `app.import('bower_components/jqplot/jquery.jqplot.min.js');`
+    `app.import('bower_components/jqplot/jquery.jqplot.min.css');`
+* create a route to use jqplot `ember generate route chart-start`
+* create a component `x-jqplot`
+* you can open x-jqplot component and chart-start file learn more
 
 ## Running / Development
 
